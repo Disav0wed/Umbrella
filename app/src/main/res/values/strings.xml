@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">Umbrella</string>
+
+    <!-- Settings Activity -->
+    <string name="zip_code_preference_key">zipCodePreferenceKey</string>
+    <string name="zip_code_preference_title">ZIP</string>
+    <string name="zip_code_preference_default_summary">Enter preferred ZIP code</string>
+
+    <string name="units_preference_key">unitsPreferenceKey</string>
+    <string name="units_preference_title">Units</string>
+    <string name="units_preference_summary">Fahrenheit</string>
+
+    <!-- ZipCodeDialogFragment -->
+    <string name="zip_code_dialog_fragment_title">Enter ZIP Code.</string>
+    <string name="zip_code_dialog_fragment_message">Please enter a ZIP code to get the Weather.</string>
+
+    <!-- NoNetWorkDialogFragment -->
+    <string name="no_network_dialog_fragment_title">No Internet Connection</string>
+    <string name="no_network_dialog_fragment_message">Make sure Wi-Fi or cellular data is turned on, then try again.</string>
+
+    <!-- ResultTimeoutkDialogFragment -->
+    <string name="result_timeout_dialog_fragment_title">Connection timeout</string>
+    <string name="result_timeout_dialog_fragment_message">There was an error during the connection to the server. Please try again.</string>
+
+    <!-- ResultErrorkDialogFragment -->
+    <string name="result_error_dialog_fragment_title">ZIP code not found</string>
+    <string name="result_error_dialog_fragment_message">Please enter a valid ZIP code.</string>
+
+
+</resources>

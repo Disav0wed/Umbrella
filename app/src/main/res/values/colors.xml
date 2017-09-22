@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="coolWeatherColor">#FF00A7F7</color>
+    <color name="warmWeatherColor">#FFFF9900</color>
+    <color name="weeklyWeatherBackgroundColor">#FFF9F9F9</color>
+</resources>

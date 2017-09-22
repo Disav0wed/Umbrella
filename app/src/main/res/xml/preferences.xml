@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/zip_code_preference_key"
+        android:inputType="number"
+        android:title="@string/zip_code_preference_title"
+        android:summary="@string/zip_code_preference_default_summary" />
+
+    <ListPreference
+        android:key="@string/units_preference_key"
+        android:title="@string/units_preference_title"
+        android:summary="@string/units_preference_summary"
+        android:entries="@array/unitsEntries"
+        android:entryValues="@array/unitsEntryValues"
+        android:defaultValue="1"/>
+
+    <PreferenceCategory
+        android:title=" Umbrella" />
+
+</PreferenceScreen>

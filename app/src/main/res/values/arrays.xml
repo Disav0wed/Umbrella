@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Arrays for SettingsPreferencesFragment -->
+    <string-array name="unitsEntries" >
+        <item>Farenheit</item>
+        <item>Celsius</item>
+    </string-array>
+
+    <string-array name="unitsEntryValues" >
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+</resources>

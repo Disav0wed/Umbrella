@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+
+    <!-- UserInputActivity theme -->
+    <style name="SettingsTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+
+    <!-- DialogTheme theme -->
+    <style name="DialogTheme" parent="@android:style/Theme.Light" />
+
+</resources>

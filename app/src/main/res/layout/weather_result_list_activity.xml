@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.umbrella.app.weather.WeatherActivity" >
+
+    <RelativeLayout
+        android:id="@+id/currentWeatherRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@android:color/darker_gray"
+        android:elevation="10dp" >
+
+        <TextView
+            android:id="@+id/cityTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Location" />
+
+        <TextView
+            android:id="@+id/temperatureTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cityTV"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:text="0°" />
+
+        <TextView
+            android:id="@+id/conditionTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temperatureTV"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="Conditions"/>
+
+        <Button
+            android:id="@+id/switchtoUserInputButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/cityTV"
+            android:background="@drawable/selector_settings_button" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/weeklyWeatherRW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/weeklyWeatherBackgroundColor"
+        android:scrollbars="vertical"
+        android:layout_weight="1" >
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
